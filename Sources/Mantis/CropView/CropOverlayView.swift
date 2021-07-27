@@ -9,8 +9,8 @@
 import UIKit
 
 class CropOverlayView: UIView {
-    private var boarderNormalColor = UIColor.lightGray
-    private var boarderHintColor = UIColor.lightGray
+    private var boarderNormalColor = UIColor.lightGray // +20210622
+    private var boarderHintColor = UIColor.lightGray // +20210622
     private var hintLine = UIView()
     private var tappedEdge: CropViewOverlayEdge = .none
     
@@ -54,7 +54,7 @@ class CropOverlayView: UIView {
     private func createNewLine() -> UIView {
         let view = UIView()
         view.frame = CGRect.zero
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .lightGray // +20210622
         addSubview(view)
         return view
     }
