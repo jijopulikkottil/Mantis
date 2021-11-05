@@ -27,6 +27,8 @@
 		5FCE938724834C57002BBE65 /* ToolbarButtonOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE938624834C57002BBE65 /* ToolbarButtonOptions.swift */; };
 		8EFB6F6725D16B0F00C0DDB2 /* MantisLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB6F3525D154D900C0DDB2 /* MantisLocalizable.strings */; };
 		8EFB6FB125D187A000C0DDB2 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB6F5425D16A9E00C0DDB2 /* Resource.bundle */; };
+		B262E16427353B030093BD42 /* MantisLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B262E15427353B030093BD42 /* MantisLocalizable.strings */; };
+		B262E16527353B030093BD42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B262E16327353B030093BD42 /* Info.plist */; };
 		FEDAAD8625205CC300D95667 /* RatioSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDAAD8525205CC300D95667 /* RatioSelector.swift */; };
 		FEDAAD8C25205DE900D95667 /* RatioItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDAAD8B25205DE900D95667 /* RatioItemView.swift */; };
 		OBJ_100 /* RotationDialPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* RotationDialPlate.swift */; };
@@ -111,6 +113,21 @@
 		8EFB6F4125D154D900C0DDB2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
 		8EFB6F4225D154D900C0DDB2 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
 		8EFB6F5425D16A9E00C0DDB2 /* Resource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B262E15527353B030093BD42 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15627353B030093BD42 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15727353B030093BD42 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		B262E15827353B030093BD42 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15927353B030093BD42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15A27353B030093BD42 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15B27353B030093BD42 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15C27353B030093BD42 /* ko-KR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ko-KR"; path = "ko-KR.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		B262E15D27353B030093BD42 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E15E27353B030093BD42 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		B262E15F27353B030093BD42 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E16027353B030093BD42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E16127353B030093BD42 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		B262E16227353B030093BD42 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		B262E16327353B030093BD42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E86127BD26206D01008365BC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
 		FEDAAD8525205CC300D95667 /* RatioSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioSelector.swift; sourceTree = "<group>"; };
 		FEDAAD8B25205DE900D95667 /* RatioItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioItemView.swift; sourceTree = "<group>"; };
@@ -192,6 +209,15 @@
 			isa = PBXGroup;
 			children = (
 				8EFB6F3525D154D900C0DDB2 /* MantisLocalizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B262E15327353B030093BD42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B262E15427353B030093BD42 /* MantisLocalizable.strings */,
+				B262E16327353B030093BD42 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -328,6 +354,7 @@
 		OBJ_8 /* Mantis */ = {
 			isa = PBXGroup;
 			children = (
+				B262E15327353B030093BD42 /* Resources */,
 				OBJ_9 /* Mantis.h */,
 				OBJ_36 /* Mantis.swift */,
 				OBJ_41 /* RatioOptions.swift */,
@@ -472,6 +499,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFB6FB125D187A000C0DDB2 /* Resource.bundle in Resources */,
+				B262E16427353B030093BD42 /* MantisLocalizable.strings in Resources */,
+				B262E16527353B030093BD42 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +643,27 @@
 				8EFB6F4125D154D900C0DDB2 /* fr */,
 				8EFB6F4225D154D900C0DDB2 /* pt-PT */,
 				E86127BD26206D01008365BC /* nl */,
+			);
+			name = MantisLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		B262E15427353B030093BD42 /* MantisLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B262E15527353B030093BD42 /* de */,
+				B262E15627353B030093BD42 /* ar */,
+				B262E15727353B030093BD42 /* zh-Hans */,
+				B262E15827353B030093BD42 /* ja */,
+				B262E15927353B030093BD42 /* en */,
+				B262E15A27353B030093BD42 /* es */,
+				B262E15B27353B030093BD42 /* it */,
+				B262E15C27353B030093BD42 /* ko-KR */,
+				B262E15D27353B030093BD42 /* ko */,
+				B262E15E27353B030093BD42 /* zh-Hant */,
+				B262E15F27353B030093BD42 /* ru */,
+				B262E16027353B030093BD42 /* fr */,
+				B262E16127353B030093BD42 /* nl */,
+				B262E16227353B030093BD42 /* pt-PT */,
 			);
 			name = MantisLocalizable.strings;
 			sourceTree = "<group>";

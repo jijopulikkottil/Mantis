@@ -15,6 +15,10 @@ let package = Package(
     targets: [
         .target(
             name: "Mantis",
+            resources: [
+                .process("Info.plist"),
+                .process("Resources/Info.plist")
+            ]
             dependencies: [])
     ]
 )
