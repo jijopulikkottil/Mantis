@@ -18,7 +18,7 @@ let package = Package(
             resources: [
                 .process("Info.plist"),
                 .process("Resources/Info.plist")
-            ]
+            ],
             dependencies: [])
     ]
 )
