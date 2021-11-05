@@ -480,13 +480,16 @@ extension CropViewController {
         stackView?.removeArrangedSubview(cropStackView)
         stackView?.removeArrangedSubview(cropToolbar)
         
-        if Orientation.isPortrait || Orientation.isLandscapeRight {
-            stackView?.addArrangedSubview(cropStackView)
-            stackView?.addArrangedSubview(cropToolbar)
-        } else if Orientation.isLandscapeLeft {
-            stackView?.addArrangedSubview(cropToolbar)
-            stackView?.addArrangedSubview(cropStackView)
-        }
+        //+20211105
+        stackView?.addArrangedSubview(cropStackView)
+        stackView?.addArrangedSubview(cropToolbar)
+//        if Orientation.isPortrait || Orientation.isLandscapeRight {
+//            stackView?.addArrangedSubview(cropStackView)
+//            stackView?.addArrangedSubview(cropToolbar)
+//        } else if Orientation.isLandscapeLeft {
+//            stackView?.addArrangedSubview(cropToolbar)
+//            stackView?.addArrangedSubview(cropStackView)
+//        }
     }
     
     fileprivate func updateLayout() {
