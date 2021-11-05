@@ -86,6 +86,7 @@ public enum CropVisualEffectType {
     case dark
     case light
     case none
+    case custom(_ color: UIColor)
 }
 
 public enum CropShapeType {
