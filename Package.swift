@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Mantis",
-    defaultLocalization: "en"
+    defaultLocalization: "en",
     platforms: [.iOS(.v11), .macOS(.v10_15)],
     products: [
         .library(
